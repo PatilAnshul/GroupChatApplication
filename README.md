@@ -4,11 +4,13 @@ A Java-based group chat application using Java Swing for the client interface, S
 
 ## Features
 
-- User registration and login
-- Real-time group chat
-- Group management
-- Message history
-- Modern Java Swing UI
+- User registration and login.
+- Real-time group chat.
+- Group managementreading and Socket programming.
+- Implementing 2FA for secure login to chat window.
+- Using threads to implement message replies.
+- Message history with timestamps.
+- Modern Java Swing UI and Java AWT UI.
 
 ## Prerequisites
 
@@ -52,12 +54,15 @@ A Java-based group chat application using Java Swing for the client interface, S
 - `src/client/` - Client-side code
   - `LoginWindow.java` - Login and registration interface
   - `ChatWindow.java` - Main chat interface
+  -  `MultiClientTest.java` - Multiple Client Implementation
 - `src/server/` - Server-side code
   - `ChatServer.java` - Server implementation
+  - `Main.java` - Single Client Implementation
 - `src/database/` - Database-related code
   - `DatabaseConfig.java` - Database configuration
   - `DatabaseConnection.java` - Database connection utility
   - `schema.sql` - Database schema
+
 
 ## Security Notes
 
